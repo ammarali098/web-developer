@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        /*class Selector*/
+      
+        .ezzu{
+            background-color: brown;
+           
+        }
+        /*id selectors*/
+        #manu{
+                background-color: blueviolet;
+            }
+            /*child selectors*/
+            div > p{
+                color: aqua;
+                background-color: blue;
+            }
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            /* pseudo selector */
+            a:visited{
+                color: yellow;
+            }
+            a:link{
+                color: darkgreen;
+            }
+            a:active{
+                color: blue;
+            }
+             a:hover{
+                color: coral;
+             }
+
+    </style>
+</head>
+<body>
+    <div class="ezzu">
+        i am a ammar
+    </div>
+    <div id="manu">
+        i am a Ali
+
+    </div>
+    <div>
+        <p>i am a paragraph</p>
+    </div>
+    <a href="https://www.google.com">Go to google</a>
+    <a href="https://www.Facebook2.com">Go to Facebook</a>
+</body>
+</html>
